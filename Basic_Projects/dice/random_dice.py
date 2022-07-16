@@ -1,9 +1,9 @@
 import random
 
 while True:
-    command = input("Type 'Y' to roll the dice or 'N' to quit:").lower()
+    command = input("Press 'R' to roll the dice or 'Q' to quit:").lower()
 
-    if command == "y":
+    if command == "r":
         dice_number = random.randint(1, 6)
 
         if dice_number == 1:
@@ -48,7 +48,7 @@ while True:
             print("|0   0   0|")
             print("+ - - - - +")
 
-    elif command == "n":
+    elif command == "q":
         break
 
     else:
