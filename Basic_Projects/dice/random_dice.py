@@ -47,6 +47,9 @@ while True:
             print("|         |")
             print("|0   0   0|")
             print("+ - - - - +")
-    else:
+
+    elif command == "n":
         break
 
+    else:
+        continue
